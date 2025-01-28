@@ -15,3 +15,8 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_arry = ["milk", "eggs", "bacon", "cookies"]
+frd_arry = ["beer", "cookies", "apples"]
+srd_arry = my_arry + frd_arry
+puts srd_arry.uniq
